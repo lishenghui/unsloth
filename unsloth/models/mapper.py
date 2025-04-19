@@ -62,6 +62,16 @@ __INT_TO_FLOAT_MAPPER = \
         "unsloth/llama-2-7b-chat",
         "meta-llama/Llama-2-7b-chat-hf",
     ),
+    "unsloth/Mixtral-8x7B-v0.1-unsloth-bnb-4bit" : (
+        "unsloth/Mixtral-8x7B-v0.1",
+        "mistralai/Mixtral-8x7B-v0.1",
+        "unsloth/Mixtral-8x7B-v0.1-bnb-4bit",
+    ),
+    "unsloth/Mixtral-8x7B-Instruct-v0.1-unsloth-bnb-4bit" : (
+        "unsloth/Mixtral-8x7B-Instruct-v0.1",
+        "mistralai/Mixtral-8x7B-Instruct-v0.1",
+        "unsloth/Mixtral-8x7B-Instruct-v0.1-bnb-4bit",
+    ),
     "unsloth/codellama-7b-bnb-4bit" : (
         "unsloth/codellama-7b",
         "codellama/CodeLlama-7b-hf",
@@ -218,13 +228,25 @@ __INT_TO_FLOAT_MAPPER = \
         "unsloth/Mistral-Nemo-Base-2407",
         "mistralai/Mistral-Nemo-Base-2407",
     ),
-    "unsloth/Meta-Llama-3.1-8B-bnb-4bit" : (
+    "unsloth/Meta-Llama-3.1-8B-unsloth-bnb-4bit" : (
         "unsloth/Meta-Llama-3.1-8B",
         "meta-llama/Meta-Llama-3.1-8B",
+        "unsloth/Meta-Llama-3.1-8B-bnb-4bit",
     ),
-    "unsloth/Meta-Llama-3.1-8B-Instruct-bnb-4bit" : (
+    "unsloth/Meta-Llama-3.1-8B-Instruct-unsloth-bnb-4bit" : (
         "unsloth/Meta-Llama-3.1-8B-Instruct",
         "meta-llama/Meta-Llama-3.1-8B-Instruct",
+        "unsloth/Meta-Llama-3.1-8B-Instruct-bnb-4bit",
+    ),
+    "unsloth/Llama-3.1-8B-unsloth-bnb-4bit" : (
+        "unsloth/Llama-3.1-8B",
+        "meta-llama/Llama-3.1-8B",
+        "unsloth/Llama-3.1-8B-bnb-4bit",
+    ),
+    "unsloth/Llama-3.1-8B-Instruct-unsloth-bnb-4bit" : (
+        "unsloth/Llama-3.1-8B-Instruct",
+        "meta-llama/Llama-3.1-8B-Instruct",
+        "unsloth/Llama-3.1-8B-Instruct-bnb-4bit",
     ),
     "unsloth/Meta-Llama-3.1-70B-bnb-4bit" : (
         "unsloth/Meta-Llama-3.1-70B",
@@ -304,25 +326,30 @@ __INT_TO_FLOAT_MAPPER = \
         "unsloth/Mistral-Small-Instruct-2409",
         "mistralai/Mistral-Small-Instruct-2409",
     ),
-    "unsloth/Qwen2.5-0.5B-Instruct-bnb-4bit" : (
+    "unsloth/Qwen2.5-0.5B-Instruct-unsloth-bnb-4bit" : (
         "unsloth/Qwen2.5-0.5B-Instruct",
         "Qwen/Qwen2.5-0.5B-Instruct",
+        "unsloth/Qwen2.5-0.5B-Instruct-bnb-4bit",
     ),
-    "unsloth/Qwen2.5-1.5B-Instruct-bnb-4bit" : (
+    "unsloth/Qwen2.5-1.5B-Instruct-unsloth-bnb-4bit" : (
         "unsloth/Qwen2.5-1.5B-Instruct",
         "Qwen/Qwen2.5-1.5B-Instruct",
+        "unsloth/Qwen2.5-1.5B-Instruct-bnb-4bit",
     ),
-    "unsloth/Qwen2.5-3B-Instruct-bnb-4bit" : (
+    "unsloth/Qwen2.5-3B-Instruct-unsloth-bnb-4bit" : (
         "unsloth/Qwen2.5-3B-Instruct",
         "Qwen/Qwen2.5-3B-Instruct",
+        "unsloth/Qwen2.5-3B-Instruct-bnb-4bit",
     ),
-    "unsloth/Qwen2.5-7B-Instruct-bnb-4bit" : (
+    "unsloth/Qwen2.5-7B-Instruct-unsloth-bnb-4bit" : (
         "unsloth/Qwen2.5-7B-Instruct",
         "Qwen/Qwen2.5-7B-Instruct",
+        "unsloth/Qwen2.5-7B-Instruct-bnb-4bit",
     ),
-    "unsloth/Qwen2.5-14B-Instruct-bnb-4bit" : (
+    "unsloth/Qwen2.5-14B-Instruct-unsloth-bnb-4bit" : (
         "unsloth/Qwen2.5-14B-Instruct",
         "Qwen/Qwen2.5-14B-Instruct",
+        "unsloth/Qwen2.5-14B-Instruct-bnb-4bit",
     ),
     "unsloth/Qwen2.5-32B-Instruct-bnb-4bit" : (
         "unsloth/Qwen2.5-32B-Instruct",
@@ -332,25 +359,30 @@ __INT_TO_FLOAT_MAPPER = \
         "unsloth/Qwen2.5-72B-Instruct",
         "Qwen/Qwen2.5-72B-Instruct",
     ),
-    "unsloth/Qwen2.5-0.5B-bnb-4bit" : (
+    "unsloth/Qwen2.5-0.5B-unsloth-bnb-4bit" : (
         "unsloth/Qwen2.5-0.5B",
         "Qwen/Qwen2.5-0.5B",
+        "unsloth/Qwen2.5-0.5B-bnb-4bit",
     ),
-    "unsloth/Qwen2.5-1.5B-bnb-4bit" : (
+    "unsloth/Qwen2.5-1.5B-unsloth-bnb-4bit" : (
         "unsloth/Qwen2.5-1.5B",
         "Qwen/Qwen2.5-1.5B",
+        "unsloth/Qwen2.5-1.5B-bnb-4bit",
     ),
-    "unsloth/Qwen2.5-3B-bnb-4bit" : (
+    "unsloth/Qwen2.5-3B-unsloth-bnb-4bit" : (
         "unsloth/Qwen2.5-3B",
         "Qwen/Qwen2.5-3B",
+        "unsloth/Qwen2.5-3B-bnb-4bit",
     ),
-    "unsloth/Qwen2.5-7B-bnb-4bit" : (
+    "unsloth/Qwen2.5-7B-unsloth-bnb-4bit" : (
         "unsloth/Qwen2.5-7B",
         "Qwen/Qwen2.5-7B",
+        "unsloth/Qwen2.5-7B-bnb-4bit",
     ),
-    "unsloth/Qwen2.5-14B-bnb-4bit" : (
+    "unsloth/Qwen2.5-14B-unsloth-bnb-4bit" : (
         "unsloth/Qwen2.5-14B",
         "Qwen/Qwen2.5-14B",
+        "unsloth/Qwen2.5-14B-bnb-4bit",
     ),
     "unsloth/Qwen2.5-32B-bnb-4bit" : (
         "unsloth/Qwen2.5-32B",
@@ -432,21 +464,25 @@ __INT_TO_FLOAT_MAPPER = \
         "unsloth/Qwen2.5-Coder-32B-Instruct",
         "Qwen/Qwen2.5-Coder-32B-Instruct",
     ),
-    "unsloth/Llama-3.2-1B-bnb-4bit" : (
+    "unsloth/Llama-3.2-1B-unsloth-bnb-4bit" : (
         "unsloth/Llama-3.2-1B",
         "meta-llama/Llama-3.2-1B",
+        "unsloth/Llama-3.2-1B-bnb-4bit",
     ),
-    "unsloth/Llama-3.2-3B-bnb-4bit" : (
+    "unsloth/Llama-3.2-3B-unsloth-bnb-4bit" : (
         "unsloth/Llama-3.2-3B",
         "meta-llama/Llama-3.2-3B",
+        "unsloth/Llama-3.2-3B-bnb-4bit",
     ),
-    "unsloth/Llama-3.2-1B-Instruct-bnb-4bit" : (
+    "unsloth/Llama-3.2-1B-Instruct-unsloth-bnb-4bit" : (
         "unsloth/Llama-3.2-1B-Instruct",
         "meta-llama/Llama-3.2-1B-Instruct",
+        "unsloth/Llama-3.2-1B-Instruct-bnb-4bit",
     ),
-    "unsloth/Llama-3.2-3B-Instruct-bnb-4bit" : (
+    "unsloth/Llama-3.2-3B-Instruct-unsloth-bnb-4bit" : (
         "unsloth/Llama-3.2-3B-Instruct",
         "meta-llama/Llama-3.2-3B-Instruct",
+        "unsloth/Llama-3.2-3B-Instruct-bnb-4bit",
     ),
     "unsloth/Llama-3.1-Nemotron-70B-Instruct-bnb-4bit" : (
         "unsloth/Llama-3.1-Nemotron-70B-Instruct",
@@ -465,6 +501,18 @@ __INT_TO_FLOAT_MAPPER = \
     "unsloth/Qwen2-VL-72B-Instruct-bnb-4bit" : (
         "unsloth/Qwen2-VL-72B-Instruct",
         "Qwen/Qwen2-VL-72B-Instruct",
+    ),
+    "unsloth/Qwen2-VL-2B-bnb-4bit" : (
+        "unsloth/Qwen2-VL-2B",
+        "Qwen/Qwen2-VL-2B",
+    ),
+    "unsloth/Qwen2-VL-7B-bnb-4bit" : (
+        "unsloth/Qwen2-VL-7B",
+        "Qwen/Qwen2-VL-7B",
+    ),
+    "unsloth/Qwen2-VL-72B-bnb-4bit" : (
+        "unsloth/Qwen2-VL-72B",
+        "Qwen/Qwen2-VL-72B",
     ),
     "unsloth/Llama-3.2-11B-Vision-Instruct-unsloth-bnb-4bit" : (
         "unsloth/Llama-3.2-11B-Vision-Instruct",
@@ -549,6 +597,146 @@ __INT_TO_FLOAT_MAPPER = \
     "unsloth/DeepSeek-R1-Distill-Llama-70B-bnb-4bit" : (
         "unsloth/DeepSeek-R1-Distill-Llama-70B",
         "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+    ),
+    "unsloth/Mistral-Small-24B-Base-2501-unsloth-bnb-4bit" : (
+        "unsloth/Mistral-Small-24B-Base-2501",
+        "mistralai/Mistral-Small-24B-Base-2501",
+        "unsloth/Mistral-Small-24B-Base-2501-bnb-4bit",
+    ),
+    "unsloth/Mistral-Small-24B-Instruct-2501-unsloth-bnb-4bit" : (
+        "unsloth/Mistral-Small-24B-Instruct-2501",
+        "mistralai/Mistral-Small-24B-Instruct-2501",
+        "unsloth/Mistral-Small-24B-Instruct-2501-bnb-4bit",
+    ),
+    "unsloth/Qwen2.5-VL-3B-Instruct-unsloth-bnb-4bit" : (
+        "unsloth/Qwen2.5-VL-3B-Instruct",
+        "Qwen/Qwen2.5-VL-3B-Instruct",
+        "unsloth/Qwen2.5-VL-3B-Instruct-bnb-4bit",
+    ),
+    "unsloth/Qwen2.5-VL-7B-Instruct-unsloth-bnb-4bit" : (
+        "unsloth/Qwen2.5-VL-7B-Instruct",
+        "Qwen/Qwen2.5-VL-7B-Instruct",
+        "unsloth/Qwen2.5-VL-7B-Instruct-bnb-4bit",
+    ),
+    "unsloth/Qwen2.5-VL-72B-Instruct-unsloth-bnb-4bit" : (
+        "unsloth/Qwen2.5-VL-72B-Instruct",
+        "Qwen/Qwen2.5-VL-72B-Instruct",
+        "unsloth/Qwen2.5-VL-72B-Instruct-bnb-4bit",
+    ),
+    "unsloth/DeepScaleR-1.5B-Preview-unsloth-bnb-4bit" : (
+        "unsloth/DeepHermes-3-Llama-3-8B-Preview",
+        "agentica-org/DeepScaleR-1.5B-Preview",
+        "unsloth/DeepScaleR-1.5B-Preview-bnb-4bit",
+    ),
+    "unsloth/OpenThinker-7B-unsloth-bnb-4bit" : (
+        "unsloth/OpenThinker-7B",
+        "open-thoughts/OpenThinker-7B",
+        "unsloth/OpenThinker-7B-bnb-4bit",
+    ),
+    "unsloth/granite-3.2-2b-instruct-unsloth-bnb-4bit" : (
+        "unsloth/granite-3.2-2b-instruct",
+        "ibm-granite/granite-3.2-2b-instruct",
+        "unsloth/granite-3.2-2b-instruct-bnb-4bit",
+    ),
+    "unsloth/granite-3.2-8b-instruct-unsloth-bnb-4bit" : (
+        "unsloth/granite-3.2-8b-instruct",
+        "ibm-granite/granite-3.2-8b-instruct",
+        "unsloth/granite-3.2-8b-instruct-bnb-4bit",
+    ),
+    "unsloth/QwQ-32B-unsloth-bnb-4bit" : (
+        "unsloth/QwQ-32B",
+        "Qwen/QwQ-32B",
+        "unsloth/QwQ-32B-bnb-4bit",
+    ),
+    "unsloth/gemma-3-1b-it-unsloth-bnb-4bit" : (
+        "unsloth/gemma-3-1b-it",
+        "google/gemma-3-1b-it",
+        "unsloth/gemma-3-1b-it-bnb-4bit",
+    ),
+    "unsloth/gemma-3-4b-it-unsloth-bnb-4bit" : (
+        "unsloth/gemma-3-4b-it",
+        "google/gemma-3-4b-it",
+        "unsloth/gemma-3-4b-it-bnb-4bit",
+    ),
+    "unsloth/gemma-3-12b-it-unsloth-bnb-4bit" : (
+        "unsloth/gemma-3-12b-it",
+        "google/gemma-3-12b-it",
+        "unsloth/gemma-3-12b-it-bnb-4bit",
+    ),
+    "unsloth/gemma-3-27b-it-unsloth-bnb-4bit" : (
+        "unsloth/gemma-3-27b-it",
+        "google/gemma-3-27b-it",
+        "unsloth/gemma-3-27b-it-bnb-4bit",
+    ),
+    "unsloth/gemma-3-1b-pt-unsloth-bnb-4bit" : (
+        "unsloth/gemma-3-1b-pt",
+        "google/gemma-3-1b-pt",
+        "unsloth/gemma-3-1b-pt-bnb-4bit",
+    ),
+    "unsloth/gemma-3-4b-pt-unsloth-bnb-4bit" : (
+        "unsloth/gemma-3-4b-pt",
+        "google/gemma-3-4b-pt",
+        "unsloth/gemma-3-4b-pt-bnb-4bit",
+    ),
+    "unsloth/gemma-3-12b-pt-unsloth-bnb-4bit" : (
+        "unsloth/gemma-3-12b-pt",
+        "google/gemma-3-12b-pt",
+        "unsloth/gemma-3-12b-pt-bnb-4bit",
+    ),
+    "unsloth/gemma-3-27b-pt-unsloth-bnb-4bit" : (
+        "unsloth/gemma-3-27b-pt",
+        "google/gemma-3-27b-pt",
+        "unsloth/gemma-3-27b-pt-bnb-4bit",
+    ),
+    "unsloth/reka-flash-3-unsloth-bnb-4bit" : (
+        "unsloth/reka-flash-3",
+        "RekaAI/reka-flash-3",
+        "unsloth/reka-flash-3-bnb-4bit",
+    ),
+    "unsloth/c4ai-command-a-03-2025-unsloth-bnb-4bit" : (
+        "unsloth/c4ai-command-a-03-2025",
+        "CohereForAI/c4ai-command-a-03-2025",
+        "unsloth/c4ai-command-a-03-2025-bnb-4bit",
+    ),
+    "unsloth/aya-vision-32b-unsloth-bnb-4bit" : (
+        "unsloth/aya-vision-32b",
+        "CohereForAI/aya-vision-32b",
+        "unsloth/aya-vision-32b-bnb-4bit",
+    ),
+    "unsloth/aya-vision-8b-unsloth-bnb-4bit" : (
+        "unsloth/aya-vision-8b",
+        "CohereForAI/aya-vision-8b",
+        "unsloth/aya-vision-8b-bnb-4bit",
+    ),
+    "unsloth/granite-vision-3.2-2b-unsloth-bnb-4bit" : (
+        "unsloth/granite-vision-3.2-2b",
+        "ibm-granite/granite-vision-3.2-2b",
+        "unsloth/granite-vision-3.2-2b-bnb-4bit",
+    ),
+    "unsloth/OLMo-2-0325-32B-Instruct-unsloth-bnb-4bit" : (
+        "unsloth/OLMo-2-0325-32B-Instruct",
+        "allenai/OLMo-2-0325-32B-Instruct",
+        "unsloth/OLMo-2-0325-32B-Instruct-bnb-4bit",
+    ),
+    "unsloth/Mistral-Small-3.1-24B-Instruct-2503-unsloth-bnb-4bit" : (
+        "unsloth/Mistral-Small-3.1-24B-Instruct-2503",
+        "mistralai/Mistral-Small-3.1-24B-Instruct-2503",
+        "unsloth/Mistral-Small-3.1-24B-Instruct-2503-bnb-4bit",
+    ),
+    "unsloth/Mistral-Small-3.1-24B-Base-2503-unsloth-bnb-4bit" : (
+        "unsloth/Mistral-Small-3.1-24B-Base-2503",
+        "mistralai/Mistral-Small-3.1-24B-Base-2503",
+        "unsloth/Mistral-Small-3.1-24B-Base-2503-bnb-4bit",
+    ),
+    "unsloth/orpheus-3b-0.1-pretrained-unsloth-bnb-4bit" : (
+        "unsloth/orpheus-3b-0.1-pretrained",
+        "canopylabs/orpheus-3b-0.1-pretrained",
+        "unsloth/orpheus-3b-0.1-pretrained-bnb-4bit",
+    ),
+    "unsloth/orpheus-3b-0.1-ft-unsloth-bnb-4bit" : (
+        "unsloth/orpheus-3b-0.1-ft",
+        "canopylabs/orpheus-3b-0.1-ft",
+        "unsloth/orpheus-3b-0.1-ft-bnb-4bit",
     ),
 }
 
